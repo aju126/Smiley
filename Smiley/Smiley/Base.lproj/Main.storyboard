@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14D131" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--Smiley View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="SmileyViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="redraw" translatesAutoresizingMaskIntoConstraints="NO" id="kGd-qW-hyL" customClass="SmileyView">
+                                <rect key="frame" x="0.0" y="-8" width="600" height="600"/>
+                                <subviews>
+                                    <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="OyB-18-WnO">
+                                        <rect key="frame" x="138" y="89" width="319" height="31"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="315" id="45G-Ot-ZYe"/>
+                                            <constraint firstAttribute="width" constant="315" id="TpI-9L-02A"/>
+                                        </constraints>
+                                        <variation key="default">
+                                            <mask key="constraints">
+                                                <exclude reference="TpI-9L-02A"/>
+                                            </mask>
+                                        </variation>
+                                        <connections>
+                                            <action selector="sliderChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="CvD-W4-bpQ"/>
+                                        </connections>
+                                    </slider>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstItem="OyB-18-WnO" firstAttribute="leading" secondItem="kGd-qW-hyL" secondAttribute="leading" constant="140" id="4x4-BZ-vLj"/>
+                                    <constraint firstItem="OyB-18-WnO" firstAttribute="leading" secondItem="kGd-qW-hyL" secondAttribute="leading" constant="140" id="elA-eX-WZG"/>
+                                    <constraint firstItem="OyB-18-WnO" firstAttribute="top" secondItem="kGd-qW-hyL" secondAttribute="top" constant="89" id="oHx-Ak-L9X"/>
+                                    <constraint firstItem="OyB-18-WnO" firstAttribute="top" secondItem="kGd-qW-hyL" secondAttribute="top" constant="89" id="zEt-ci-p52"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="elA-eX-WZG"/>
+                                        <exclude reference="zEt-ci-p52"/>
+                                    </mask>
+                                </variation>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="kGd-qW-hyL" secondAttribute="bottom" constant="8" symbolic="YES" id="53U-3V-i79"/>
+                            <constraint firstAttribute="trailing" secondItem="kGd-qW-hyL" secondAttribute="trailing" id="GMy-MJ-Awq"/>
+                            <constraint firstItem="kGd-qW-hyL" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="NQ1-bb-ZLG"/>
+                            <constraint firstItem="kGd-qW-hyL" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" constant="-8" id="zC6-R4-cw9"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="smiley" destination="kGd-qW-hyL" id="9yb-iW-0jj"/>
+                        <outlet property="smileySlider" destination="OyB-18-WnO" id="LVp-UH-xno"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>

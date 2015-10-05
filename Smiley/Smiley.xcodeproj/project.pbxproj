@@ -1,0 +1,439 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D42668D91BBE6B1600031ABF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D42668D81BBE6B1600031ABF /* main.m */; };
+		D42668DC1BBE6B1600031ABF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D42668DB1BBE6B1600031ABF /* AppDelegate.m */; };
+		D42668E21BBE6B1600031ABF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D42668E01BBE6B1600031ABF /* Main.storyboard */; };
+		D42668E41BBE6B1600031ABF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D42668E31BBE6B1600031ABF /* Images.xcassets */; };
+		D42668E71BBE6B1600031ABF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D42668E51BBE6B1600031ABF /* LaunchScreen.xib */; };
+		D42668F31BBE6B1600031ABF /* SmileyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D42668F21BBE6B1600031ABF /* SmileyTests.m */; };
+		D42668FE1BBED49D00031ABF /* SmileyView.m in Sources */ = {isa = PBXBuildFile; fileRef = D42668FD1BBED49D00031ABF /* SmileyView.m */; };
+		D42669011BBEE47D00031ABF /* SmileyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D42669001BBEE47D00031ABF /* SmileyViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D42668ED1BBE6B1600031ABF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D42668CB1BBE6B1600031ABF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D42668D21BBE6B1600031ABF;
+			remoteInfo = Smiley;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D42668D31BBE6B1600031ABF /* Smiley.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Smiley.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D42668D71BBE6B1600031ABF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D42668D81BBE6B1600031ABF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D42668DA1BBE6B1600031ABF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D42668DB1BBE6B1600031ABF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D42668E11BBE6B1600031ABF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D42668E31BBE6B1600031ABF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D42668E61BBE6B1600031ABF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		D42668EC1BBE6B1600031ABF /* SmileyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmileyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D42668F11BBE6B1600031ABF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D42668F21BBE6B1600031ABF /* SmileyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SmileyTests.m; sourceTree = "<group>"; };
+		D42668FC1BBED49D00031ABF /* SmileyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SmileyView.h; sourceTree = "<group>"; };
+		D42668FD1BBED49D00031ABF /* SmileyView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SmileyView.m; sourceTree = "<group>"; };
+		D42668FF1BBEE47D00031ABF /* SmileyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SmileyViewController.h; sourceTree = "<group>"; };
+		D42669001BBEE47D00031ABF /* SmileyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SmileyViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D42668D01BBE6B1600031ABF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D42668E91BBE6B1600031ABF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D42668CA1BBE6B1600031ABF = {
+			isa = PBXGroup;
+			children = (
+				D42668D51BBE6B1600031ABF /* Smiley */,
+				D42668EF1BBE6B1600031ABF /* SmileyTests */,
+				D42668D41BBE6B1600031ABF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D42668D41BBE6B1600031ABF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D42668D31BBE6B1600031ABF /* Smiley.app */,
+				D42668EC1BBE6B1600031ABF /* SmileyTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D42668D51BBE6B1600031ABF /* Smiley */ = {
+			isa = PBXGroup;
+			children = (
+				D42668DA1BBE6B1600031ABF /* AppDelegate.h */,
+				D42668DB1BBE6B1600031ABF /* AppDelegate.m */,
+				D42668E01BBE6B1600031ABF /* Main.storyboard */,
+				D42668E31BBE6B1600031ABF /* Images.xcassets */,
+				D42668E51BBE6B1600031ABF /* LaunchScreen.xib */,
+				D42668D61BBE6B1600031ABF /* Supporting Files */,
+				D42668FC1BBED49D00031ABF /* SmileyView.h */,
+				D42668FD1BBED49D00031ABF /* SmileyView.m */,
+				D42668FF1BBEE47D00031ABF /* SmileyViewController.h */,
+				D42669001BBEE47D00031ABF /* SmileyViewController.m */,
+			);
+			path = Smiley;
+			sourceTree = "<group>";
+		};
+		D42668D61BBE6B1600031ABF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D42668D71BBE6B1600031ABF /* Info.plist */,
+				D42668D81BBE6B1600031ABF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D42668EF1BBE6B1600031ABF /* SmileyTests */ = {
+			isa = PBXGroup;
+			children = (
+				D42668F21BBE6B1600031ABF /* SmileyTests.m */,
+				D42668F01BBE6B1600031ABF /* Supporting Files */,
+			);
+			path = SmileyTests;
+			sourceTree = "<group>";
+		};
+		D42668F01BBE6B1600031ABF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D42668F11BBE6B1600031ABF /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D42668D21BBE6B1600031ABF /* Smiley */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D42668F61BBE6B1600031ABF /* Build configuration list for PBXNativeTarget "Smiley" */;
+			buildPhases = (
+				D42668CF1BBE6B1600031ABF /* Sources */,
+				D42668D01BBE6B1600031ABF /* Frameworks */,
+				D42668D11BBE6B1600031ABF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Smiley;
+			productName = Smiley;
+			productReference = D42668D31BBE6B1600031ABF /* Smiley.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D42668EB1BBE6B1600031ABF /* SmileyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D42668F91BBE6B1600031ABF /* Build configuration list for PBXNativeTarget "SmileyTests" */;
+			buildPhases = (
+				D42668E81BBE6B1600031ABF /* Sources */,
+				D42668E91BBE6B1600031ABF /* Frameworks */,
+				D42668EA1BBE6B1600031ABF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D42668EE1BBE6B1600031ABF /* PBXTargetDependency */,
+			);
+			name = SmileyTests;
+			productName = SmileyTests;
+			productReference = D42668EC1BBE6B1600031ABF /* SmileyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D42668CB1BBE6B1600031ABF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Shashikumar,Ajith";
+				TargetAttributes = {
+					D42668D21BBE6B1600031ABF = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					D42668EB1BBE6B1600031ABF = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = D42668D21BBE6B1600031ABF;
+					};
+				};
+			};
+			buildConfigurationList = D42668CE1BBE6B1600031ABF /* Build configuration list for PBXProject "Smiley" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D42668CA1BBE6B1600031ABF;
+			productRefGroup = D42668D41BBE6B1600031ABF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D42668D21BBE6B1600031ABF /* Smiley */,
+				D42668EB1BBE6B1600031ABF /* SmileyTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D42668D11BBE6B1600031ABF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D42668E21BBE6B1600031ABF /* Main.storyboard in Resources */,
+				D42668E71BBE6B1600031ABF /* LaunchScreen.xib in Resources */,
+				D42668E41BBE6B1600031ABF /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D42668EA1BBE6B1600031ABF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D42668CF1BBE6B1600031ABF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D42668DC1BBE6B1600031ABF /* AppDelegate.m in Sources */,
+				D42668FE1BBED49D00031ABF /* SmileyView.m in Sources */,
+				D42668D91BBE6B1600031ABF /* main.m in Sources */,
+				D42669011BBEE47D00031ABF /* SmileyViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D42668E81BBE6B1600031ABF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D42668F31BBE6B1600031ABF /* SmileyTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D42668EE1BBE6B1600031ABF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D42668D21BBE6B1600031ABF /* Smiley */;
+			targetProxy = D42668ED1BBE6B1600031ABF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D42668E01BBE6B1600031ABF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D42668E11BBE6B1600031ABF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D42668E51BBE6B1600031ABF /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D42668E61BBE6B1600031ABF /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D42668F41BBE6B1600031ABF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D42668F51BBE6B1600031ABF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D42668F71BBE6B1600031ABF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Smiley/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D42668F81BBE6B1600031ABF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Smiley/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D42668FA1BBE6B1600031ABF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SmileyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Smiley.app/Smiley";
+			};
+			name = Debug;
+		};
+		D42668FB1BBE6B1600031ABF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SmileyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Smiley.app/Smiley";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D42668CE1BBE6B1600031ABF /* Build configuration list for PBXProject "Smiley" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D42668F41BBE6B1600031ABF /* Debug */,
+				D42668F51BBE6B1600031ABF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D42668F61BBE6B1600031ABF /* Build configuration list for PBXNativeTarget "Smiley" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D42668F71BBE6B1600031ABF /* Debug */,
+				D42668F81BBE6B1600031ABF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D42668F91BBE6B1600031ABF /* Build configuration list for PBXNativeTarget "SmileyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D42668FA1BBE6B1600031ABF /* Debug */,
+				D42668FB1BBE6B1600031ABF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D42668CB1BBE6B1600031ABF /* Project object */;
+}
